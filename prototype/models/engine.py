@@ -18,7 +18,7 @@ from typing import List, Dict, Tuple, Optional
 from enum import Enum
 from pathlib import Path
 
-from pbpk_model import PhysiologicalParameters
+from .pbpk_model import PhysiologicalParameters
 
 
 # ============================================================================
@@ -26,8 +26,8 @@ from pbpk_model import PhysiologicalParameters
 # ============================================================================
 
 def get_data_dir() -> Path:
-    """데이터 디렉토리 경로 반환"""
-    return Path(__file__).parent / "data"
+    """데이터 디렉토리 경로 반환 (prototype/data/)"""
+    return Path(__file__).parent.parent / "data"
 
 
 def load_allele_frequencies() -> Dict:
