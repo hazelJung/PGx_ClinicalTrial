@@ -4,18 +4,26 @@ Flask Web Application - Virtual Population PBPK Simulator
 HTML/CSS 파일을 직접 수정할 수 있는 Flask 기반 웹앱
 
 구조:
-- templates/index.html : 메인 HTML 파일
-- static/css/style.css : 스타일시트
-- static/js/app.js : JavaScript
+- app/templates/index.html : 메인 HTML 파일
+- app/static/css/style.css : 스타일시트
+- app/static/js/app.js : JavaScript
+- models/ : 모델링 코드 (engine.py, pbpk_model.py)
 """
+
+import sys
+from pathlib import Path
+
+# 상위 폴더를 경로에 추가 (models 패키지 import 위해)
+ROOT_DIR = Path(__file__).parent.parent
+sys.path.insert(0, str(ROOT_DIR))
 
 from flask import Flask, render_template, jsonify, request
 import numpy as np
 import requests
 
-# 같은 폴더의 모듈 import
-from engine import PopulationGenerator, Ethnicity
-from pbpk_model import (
+# models 패키지에서 import
+from models import (
+    PopulationGenerator, Ethnicity,
     DrugParameters, SimulationConfig, PhysiologicalParameters,
     run_population_simulation
 )
@@ -213,15 +221,16 @@ def api_fetch_pubchem():
 
 if __name__ == '__main__':
     print("\n" + "="*60)
-    print("  🧬 Virtual Population PBPK Simulator (Flask Version)")
+    print("  🧬 Virtual Population PBPK Simulator")
     print("="*60)
     print("  서버 시작 중...")
     print("  브라우저에서 http://localhost:5000 을 열어주세요")
     print("="*60)
     print("\n  📁 파일 구조:")
-    print("     templates/index.html  - HTML 수정")
-    print("     static/css/style.css  - CSS 수정")
-    print("     static/js/app.js      - JavaScript 수정")
+    print("     app/templates/index.html  - HTML 수정")
+    print("     app/static/css/style.css  - CSS 수정")
+    print("     app/static/js/app.js      - JavaScript 수정")
+    print("     models/                   - 모델링 코드")
     print("="*60 + "\n")
     
     app.run(debug=True, port=5000)
