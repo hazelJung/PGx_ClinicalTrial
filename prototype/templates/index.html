@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Population PBPK Simulator</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                    <span class="header-icon">🧬</span>
+                    <div>
+                        <h1 class="header-title">Virtual Population PBPK Simulator</h1>
+                        <p class="header-subtitle">Preclinical-to-Phase1 Transition Platform</p>
+                    </div>
+                </div>
+                <div class="header-badge">Digital Twin Technology</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container-fluid" style="max-width: 1600px;">
+            <div class="row">
+                <!-- Left Panel - Controls -->
+                <div class="col-lg-4 col-md-5 mb-4">
+                    
+                    <!-- Population Settings Card -->
+                    <div class="card mb-3">
+                        <div class="card-header">
+                            <h5>👥 인구집단 설정</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <label class="form-label">총 인원수 (N)</label>
+                                <input type="range" class="form-range" id="n-subjects" min="100" max="2000" value="1000" step="100">
+                                <div class="d-flex justify-content-between text-muted small">
+                                    <span>100</span>
+                                    <span id="n-subjects-display" class="fw-bold text-primary">1000</span>
+                                    <span>2000</span>
+                                </div>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label class="form-label">민족 구성 (%)</label>
+                                <div class="row g-2">
+                                    <div class="col-4">
+                                        <label class="small text-muted">East Asian</label>
+                                        <input type="number" class="form-control form-control-sm" id="eth-asian" value="50" min="0" max="100">
+                                    </div>
+                                    <div class="col-4">
+                                        <label class="small text-muted">European</label>
+                                        <input type="number" class="form-control form-control-sm" id="eth-european" value="30" min="0" max="100">
+                                    </div>
+                                    <div class="col-4">
+                                        <label class="small text-muted">African</label>
+                                        <input type="number" class="form-control form-control-sm" id="eth-african" value="20" min="0" max="100">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label class="form-label">나이 범위</label>
+                                <div class="d-flex gap-2 align-items-center">
+                                    <input type="number" class="form-control form-control-sm" id="age-min" value="18" min="0" max="100" style="width: 70px">
+                                    <span>~</span>
+                                    <input type="number" class="form-control form-control-sm" id="age-max" value="65" min="0" max="100" style="width: 70px">
+                                    <span class="text-muted">세</span>
+                                </div>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label class="form-label">성비 (남성 %)</label>
+                                <input type="range" class="form-range" id="gender-ratio" min="0" max="100" value="50">
+                                <div class="text-center">
+                                    <span id="gender-display" class="badge bg-primary">50%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Physiology Card -->
+                    <div class="card mb-3">
+                        <div class="card-header">
+                            <h5>⚙️ 생리학적 파라미터</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row g-2 mb-2">
+                                <div class="col-6">
+                                    <label class="small text-muted">체중 평균 (kg)</label>
+                                    <input type="number" class="form-control form-control-sm" id="weight-mean" value="70" min="30" max="150">
+                                </div>
+                                <div class="col-6">
+                                    <label class="small text-muted">체중 SD (kg)</label>
+                                    <input type="number" class="form-control form-control-sm" id="weight-sd" value="15" min="1" max="50">
+                                </div>
+                            </div>
+                            <div class="mb-2">
+                                <label class="small text-muted">기저 CLint (L/h)</label>
+                                <input type="number" class="form-control form-control-sm" id="base-clint" value="10" min="0.1" max="100" step="0.1">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Drug Card -->
+                    <div class="card mb-3">
+                        <div class="card-header">
+                            <h5>💊 약물 파라미터</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-2">
+                                <label class="small text-muted">약물명</label>
+                                <div class="input-group input-group-sm">
+                                    <input type="text" class="form-control" id="drug-name" value="Omeprazole">
+                                    <button class="btn btn-outline-primary" type="button" id="fetch-pubchem">PubChem 검색</button>
+                                </div>
+                                <div id="pubchem-status" class="small mt-1"></div>
+                            </div>
+                            
+                            <div class="row g-2">
+                                <div class="col-6">
+                                    <label class="small text-muted">LogP</label>
+                                    <input type="number" class="form-control form-control-sm" id="log-p" value="2.0" step="0.1">
+                                </div>
+                                <div class="col-6">
+                                    <label class="small text-muted">fu (비결합률)</label>
+                                    <input type="number" class="form-control form-control-sm" id="f-u" value="0.05" min="0" max="1" step="0.01">
+                                </div>
+                                <div class="col-6">
+                                    <label class="small text-muted">Vd (L/kg)</label>
+                                    <input type="number" class="form-control form-control-sm" id="v-d" value="0.3" step="0.1">
+                                </div>
+                                <div class="col-6">
+                                    <label class="small text-muted">ka (1/h)</label>
+                                    <input type="number" class="form-control form-control-sm" id="k-a" value="1.0" step="0.1">
+                                </div>
+                                <div class="col-6">
+                                    <label class="small text-muted">투여량 (mg)</label>
+                                    <input type="number" class="form-control form-control-sm" id="dose" value="20" min="1">
+                                </div>
+                                <div class="col-6">
+                                    <label class="small text-muted">생체이용률 (F)</label>
+                                    <input type="number" class="form-control form-control-sm" id="bioavail" value="0.6" min="0" max="1" step="0.1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Action Buttons -->
+                    <div class="card">
+                        <div class="card-body">
+                            <label class="form-label text-muted small">Step 1: 가상 인구집단 생성</label>
+                            <button class="btn btn-primary btn-lg w-100 mb-2" id="generate-population">
+                                👥 인구집단 생성
+                            </button>
+                            <div id="population-status" class="text-center mb-3"></div>
+                            
+                            <hr>
+                            
+                            <label class="form-label text-muted small">Step 2: 약물 시뮬레이션</label>
+                            <button class="btn btn-success btn-lg w-100" id="run-simulation" disabled>
+                                💊 시뮬레이션 실행
+                            </button>
+                            <div id="simulation-status" class="text-center mt-2"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Panel - Visualizations -->
+                <div class="col-lg-8 col-md-7">
+                    
+                    <!-- Digital Twin Grid -->
+                    <div class="card mb-3">
+                        <div class="card-header">
+                            <h5>🧬 디지털 트윈 인구집단</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="legend mb-2">
+                                <span class="fw-semibold me-2">대사자 표현형:</span>
+                                <span class="badge bg-success me-1">NM</span>
+                                <span class="badge bg-warning me-1">IM</span>
+                                <span class="badge bg-danger me-1">PM</span>
+                                <span class="badge bg-primary">UM</span>
+                            </div>
+                            <div id="digital-twin-grid" class="twin-grid">
+                                <p class="text-muted text-center py-5">👆 Step 1: '인구집단 생성' 버튼을 클릭하세요</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- PK Curves -->
+                    <div class="card mb-3">
+                        <div class="card-header">
+                            <h5>📈 혈장 농도-시간 곡선</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="pk-curves-chart" style="height: 350px;">
+                                <p class="text-muted text-center py-5">시뮬레이션 결과가 여기에 표시됩니다</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Bottom Row -->
+                    <div class="row">
+                        <div class="col-lg-6 mb-3">
+                            <div class="card h-100">
+                                <div class="card-header">
+                                    <h5>⚠️ 안전 마진 분석</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div class="mb-2">
+                                        <label class="small text-muted">독성 임계값 (ng/mL)</label>
+                                        <input type="number" class="form-control form-control-sm" id="toxic-threshold" value="1000">
+                                    </div>
+                                    <div id="safety-report">
+                                        <p class="text-muted small">시뮬레이션 후 결과 표시</p>
+                                    </div>
+                                    <div id="cmax-histogram" style="height: 200px;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-3">
+                            <div class="card h-100">
+                                <div class="card-header">
+                                    <h5>📊 인구집단 요약</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div id="population-summary">
+                                        <p class="text-muted small">인구집단 생성 후 표시</p>
+                                    </div>
+                                    <div id="metabolizer-pie" style="height: 200px;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

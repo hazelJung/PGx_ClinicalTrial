@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "source": "CPIC Guidelines",
+        "version": "2024.01",
+        "description": "CYP enzyme allele activity scores for metabolizer phenotype assignment",
+        "reference": "https://cpicpgx.org/guidelines/"
+    },
+    "activity_scores": {
+        "CYP2C19": {
+            "*1": 1.0,
+            "*2": 0.0,
+            "*3": 0.0,
+            "*17": 1.5
+        },
+        "CYP3A4": {
+            "*1": 1.0,
+            "*22": 0.5
+        },
+        "CYP2D6": {
+            "*1": 1.0,
+            "*2": 1.0,
+            "*10": 0.25,
+            "*41": 0.5,
+            "*4": 0.0,
+            "*5": 0.0
+        }
+    },
+    "phenotype_mapping": {
+        "description": "Activity Score ranges for metabolizer phenotype classification",
+        "ranges": {
+            "Poor Metabolizer (PM)": {
+                "min": 0.0,
+                "max": 0.25
+            },
+            "Intermediate Metabolizer (IM)": {
+                "min": 0.25,
+                "max": 1.0
+            },
+            "Normal Metabolizer (NM)": {
+                "min": 1.0,
+                "max": 2.0
+            },
+            "Ultra-rapid Metabolizer (UM)": {
+                "min": 2.0,
+                "max": 4.0
+            }
+        }
+    }
+}

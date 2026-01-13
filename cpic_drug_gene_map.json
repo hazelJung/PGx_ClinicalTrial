@@ -1,0 +1,1282 @@
+{
+  "Ace Inhibitors, Plain": [
+    "KCNIP4"
+  ],
+  "Alkylating Agents": [
+    "NQO1"
+  ],
+  "Bisphosphonates": [
+    "FDPS"
+  ],
+  "Platinum compounds": [
+    "GSTP1",
+    "DYNC2H1",
+    "ERCC1",
+    "NQO1"
+  ],
+  "Selective serotonin reuptake inhibitors": [
+    "COMT",
+    "TXNRD2"
+  ],
+  "Tumor necrosis factor alpha (TNF-alpha) inhibitors": [
+    "TNF"
+  ],
+  "abacavir": [
+    "HLA-B"
+  ],
+  "acebutolol": [
+    "GRK4",
+    "CYP2D6",
+    "ADRA2C",
+    "GRK5",
+    "ADRB1"
+  ],
+  "aceclofenac": [
+    "CYP2C9"
+  ],
+  "acenocoumarol": [
+    "CYP2C9",
+    "CYP4F2"
+  ],
+  "adalimumab": [
+    "TNF"
+  ],
+  "alendronate": [
+    "FDPS"
+  ],
+  "alfentanil": [
+    "COMT",
+    "OPRM1"
+  ],
+  "allopurinol": [
+    "HLA-B",
+    "HLA-A",
+    "HLA-C"
+  ],
+  "amifampridine": [
+    "NAT2"
+  ],
+  "amifampridine phosphate": [
+    "NAT2"
+  ],
+  "amikacin": [
+    "MT-RNR1"
+  ],
+  "aminoglycoside antibacterials": [
+    "MT-RNR1"
+  ],
+  "aminosalicylic acid": [
+    "G6PD"
+  ],
+  "amisulpride": [
+    "MC4R"
+  ],
+  "amitriptyline": [
+    "CYP2D6",
+    "CYP2C19"
+  ],
+  "amoxapine": [
+    "CYP2D6"
+  ],
+  "amphetamine": [
+    "CYP2D6"
+  ],
+  "anthracyclines and related substances": [
+    "CBR3",
+    "HAS3",
+    "NQO1",
+    "SLC28A3"
+  ],
+  "antidepressants": [
+    "ABCB1",
+    "FKBP5",
+    "GRIK4",
+    "HTR2A"
+  ],
+  "antipsychotics": [
+    "MC4R",
+    "ANKK1"
+  ],
+  "aripiprazole": [
+    "CYP2D6",
+    "MC4R"
+  ],
+  "aripiprazole lauroxil": [
+    "CYP2D6"
+  ],
+  "aspirin": [
+    "G6PD",
+    "CYP2C9",
+    "HLA-DPB1",
+    "GP1BA",
+    "LTC4S",
+    "PTGS1"
+  ],
+  "ataluren": [
+    "CFTR"
+  ],
+  "atazanavir": [
+    "UGT1A1",
+    "CYP3A5"
+  ],
+  "atenolol": [
+    "GRK4",
+    "ADRB1",
+    "ADRA2C",
+    "GRK5"
+  ],
+  "atomoxetine": [
+    "CYP2D6"
+  ],
+  "atorvastatin": [
+    "SLCO1B1",
+    "CYP3A4",
+    "CYP3A5",
+    "HMGCR",
+    "APOE",
+    "CETP",
+    "COQ2",
+    "KIF6",
+    "LDLR",
+    "LPA"
+  ],
+  "avatrombopag": [
+    "CYP2C9"
+  ],
+  "azathioprine": [
+    "NUDT15",
+    "TPMT"
+  ],
+  "belinostat": [
+    "UGT1A1"
+  ],
+  "betaxolol": [
+    "GRK4",
+    "CYP2D6",
+    "ADRA2C",
+    "GRK5",
+    "ADRB1"
+  ],
+  "bisoprolol": [
+    "GRK4",
+    "CYP2D6",
+    "ADRB1",
+    "GRK5",
+    "ADRA2C"
+  ],
+  "brexpiprazole": [
+    "CYP2D6"
+  ],
+  "brivaracetam": [
+    "CYP2C19"
+  ],
+  "bucindolol": [
+    "ADRB1"
+  ],
+  "budesonide": [
+    "CRHR1"
+  ],
+  "buprenorphine": [
+    "COMT",
+    "OPRM1"
+  ],
+  "bupropion": [
+    "CYP2B6",
+    "ANKK1"
+  ],
+  "caffeine": [
+    "ADORA2A"
+  ],
+  "capecitabine": [
+    "DPYD",
+    "MTHFR",
+    "TYMS"
+  ],
+  "captopril": [
+    "ACE"
+  ],
+  "carbamazepine": [
+    "HLA-B",
+    "HLA-A",
+    "SCN1A",
+    "EPHX1",
+    "FLOT1"
+  ],
+  "carbimazole": [
+    "HLA-B"
+  ],
+  "carboplatin": [
+    "MTHFR"
+  ],
+  "carglumic acid": [
+    "NAGS"
+  ],
+  "carisoprodol": [
+    "CYP2C19"
+  ],
+  "carvedilol": [
+    "GRK4",
+    "GRK5",
+    "ADRB2",
+    "ADRB1",
+    "CYP2D6",
+    "ADRA2C"
+  ],
+  "celecoxib": [
+    "CYP2C9"
+  ],
+  "cerivastatin": [
+    "SLCO1B1",
+    "CETP",
+    "LPA"
+  ],
+  "cetuximab": [
+    "EGF",
+    "FCGR3A"
+  ],
+  "cevimeline": [
+    "CYP2D6"
+  ],
+  "chloramphenicol": [
+    "G6PD"
+  ],
+  "chloroquine": [
+    "G6PD"
+  ],
+  "chlorpropamide": [
+    "G6PD"
+  ],
+  "ciprofloxacin": [
+    "G6PD"
+  ],
+  "cisplatin": [
+    "COMT",
+    "XPC",
+    "ACYP2",
+    "ERCC1",
+    "GSTM1",
+    "NQO1",
+    "TMEM43",
+    "TP53"
+  ],
+  "citalopram": [
+    "SLC6A4",
+    "CYP2C19",
+    "CYP2D6",
+    "HTR2A",
+    "COMT",
+    "GRIK4",
+    "FKBP5"
+  ],
+  "clobazam": [
+    "CYP2C19"
+  ],
+  "clomipramine": [
+    "CYP2C19",
+    "CYP2D6"
+  ],
+  "clopidogrel": [
+    "CYP2C19",
+    "CES1"
+  ],
+  "clozapine": [
+    "CYP2D6",
+    "HTR2C",
+    "MC4R",
+    "ANKK1"
+  ],
+  "codeine": [
+    "CYP2D6",
+    "COMT",
+    "OPRM1"
+  ],
+  "cyclophosphamide": [
+    "MTHFR",
+    "GSTP1",
+    "NQO1",
+    "SOD2",
+    "TP53"
+  ],
+  "cyclosporine": [
+    "CYP3A5"
+  ],
+  "dabrafenib": [
+    "G6PD"
+  ],
+  "dapsone": [
+    "G6PD",
+    "HLA-B"
+  ],
+  "darifenacin": [
+    "CYP2D6"
+  ],
+  "daunorubicin": [
+    "SLC28A3",
+    "CBR3",
+    "HAS3"
+  ],
+  "desflurane": [
+    "CACNA1S",
+    "RYR1"
+  ],
+  "desipramine": [
+    "CYP2D6"
+  ],
+  "desvenlafaxine": [
+    "HTR2A",
+    "SLC6A4"
+  ],
+  "deutetrabenazine": [
+    "CYP2D6"
+  ],
+  "dexlansoprazole": [
+    "CYP2C19"
+  ],
+  "dextromethorphan": [
+    "CYP2D6"
+  ],
+  "diazepam": [
+    "CYP2C19"
+  ],
+  "dibekacin": [
+    "MT-RNR1"
+  ],
+  "diclofenac": [
+    "CYP2C9",
+    "CYP2C8"
+  ],
+  "digoxin": [
+    "ABCB1"
+  ],
+  "dimercaprol": [
+    "G6PD"
+  ],
+  "divalproex sodium": [
+    "POLG"
+  ],
+  "dolasetron": [
+    "CYP2D6"
+  ],
+  "dolutegravir": [
+    "UGT1A1"
+  ],
+  "donepezil": [
+    "CYP2D6"
+  ],
+  "doxepin": [
+    "CYP2C19",
+    "CYP2D6"
+  ],
+  "doxorubicin": [
+    "SLC28A3",
+    "G6PD",
+    "CBR3",
+    "HAS3",
+    "NQO1"
+  ],
+  "dronabinol": [
+    "CYP2C9"
+  ],
+  "duloxetine": [
+    "CYP2C19",
+    "CYP2D6",
+    "HTR2A",
+    "SLC6A4"
+  ],
+  "efavirenz": [
+    "CYP2B6",
+    "CYP2A7P1"
+  ],
+  "elagolix": [
+    "SLCO1B1"
+  ],
+  "eliglustat": [
+    "CYP2D6"
+  ],
+  "eltrombopag": [
+    "F5",
+    "SERPINC1"
+  ],
+  "enflurane": [
+    "CACNA1S",
+    "RYR1"
+  ],
+  "epirubicin": [
+    "CBR3",
+    "GSTP1",
+    "HAS3",
+    "NQO1"
+  ],
+  "erdafitinib": [
+    "CYP2C9"
+  ],
+  "erythromycin": [
+    "G6PD"
+  ],
+  "escitalopram": [
+    "CYP2C19",
+    "CYP2D6",
+    "HTR2A",
+    "SLC6A4",
+    "COMT",
+    "GRIK4"
+  ],
+  "esmolol": [
+    "ADRB1",
+    "GRK4",
+    "ADRA2C",
+    "GRK5"
+  ],
+  "esomeprazole": [
+    "CYP2C19"
+  ],
+  "etanercept": [
+    "TNF"
+  ],
+  "ethanol": [
+    "OPRM1",
+    "ANKK1"
+  ],
+  "etoposide": [
+    "DYNC2H1"
+  ],
+  "fentanyl": [
+    "COMT",
+    "OPRM1",
+    "ABCB1"
+  ],
+  "fesoterodine": [
+    "CYP2D6"
+  ],
+  "flecainide": [
+    "CYP2D6"
+  ],
+  "flibanserin": [
+    "CYP2C19",
+    "CYP2C9",
+    "CYP2D6"
+  ],
+  "fluorouracil": [
+    "DPYD",
+    "MTHFR",
+    "GSTP1",
+    "NQO1",
+    "TYMS",
+    "UMPS"
+  ],
+  "fluoxetine": [
+    "CYP2C19",
+    "CYP2D6",
+    "HTR2A",
+    "SLC6A4",
+    "GRIK4",
+    "FKBP5"
+  ],
+  "flurbiprofen": [
+    "CYP2C9"
+  ],
+  "fluticasone propionate": [
+    "CRHR1"
+  ],
+  "fluticasone/salmeterol": [
+    "CRHR1"
+  ],
+  "fluvastatin": [
+    "CYP3A5",
+    "SLCO1B1",
+    "CYP2C9",
+    "CYP3A4",
+    "HMGCR",
+    "CETP",
+    "LPA"
+  ],
+  "fluvoxamine": [
+    "CYP2D6",
+    "CYP2C19",
+    "HTR2A",
+    "SLC6A4"
+  ],
+  "fosphenytoin": [
+    "CYP2C9",
+    "HLA-B"
+  ],
+  "furazolidone": [
+    "G6PD"
+  ],
+  "furosemide": [
+    "ADD1"
+  ],
+  "galantamine": [
+    "CYP2D6"
+  ],
+  "gefitinib": [
+    "CYP2D6"
+  ],
+  "gemcitabine": [
+    "NT5C2"
+  ],
+  "gentamicin": [
+    "MT-RNR1"
+  ],
+  "gliclazide": [
+    "G6PD"
+  ],
+  "glimepiride": [
+    "G6PD"
+  ],
+  "glipizide": [
+    "G6PD"
+  ],
+  "glyburide": [
+    "G6PD"
+  ],
+  "haloperidol": [
+    "MC4R",
+    "CYP2D6"
+  ],
+  "halothane": [
+    "CACNA1S",
+    "RYR1"
+  ],
+  "hmg coa reductase inhibitors": [
+    "CETP",
+    "HMGCR",
+    "LPA"
+  ],
+  "hormonal contraceptives for systemic use": [
+    "F5"
+  ],
+  "hydralazine": [
+    "NAT2",
+    "NAT1"
+  ],
+  "hydrochlorothiazide": [
+    "NEDD4L",
+    "PRKCA",
+    "YEATS4"
+  ],
+  "hydrocodone": [
+    "CYP2D6",
+    "COMT",
+    "OPRM1"
+  ],
+  "hydromorphone": [
+    "COMT",
+    "OPRM1"
+  ],
+  "hydroxychloroquine": [
+    "G6PD"
+  ],
+  "ibuprofen": [
+    "CYP2C8",
+    "CYP2C9"
+  ],
+  "idarubicin": [
+    "CBR3",
+    "HAS3"
+  ],
+  "iloperidone": [
+    "CYP2D6"
+  ],
+  "imipramine": [
+    "CYP2C19",
+    "CYP2D6"
+  ],
+  "indomethacin": [
+    "CYP2C9"
+  ],
+  "infliximab": [
+    "TNF"
+  ],
+  "interferon alfa-2b, recombinant": [
+    "ITPA"
+  ],
+  "irinotecan": [
+    "UGT1A1",
+    "C8orf34",
+    "SEMA3C"
+  ],
+  "isoflurane": [
+    "CACNA1S",
+    "RYR1"
+  ],
+  "isoniazid": [
+    "NAT2"
+  ],
+  "isosorbide dinitrate": [
+    "NAT1",
+    "NAT2"
+  ],
+  "ivacaftor": [
+    "CFTR"
+  ],
+  "kanamycin": [
+    "MT-RNR1"
+  ],
+  "l-methylfolate": [
+    "MTHFR"
+  ],
+  "labetalol": [
+    "CYP2D6",
+    "ADRB1",
+    "ADRA2C",
+    "ADRB2",
+    "GRK5",
+    "GRK4"
+  ],
+  "lamotrigine": [
+    "UGT1A4"
+  ],
+  "lansoprazole": [
+    "CYP2C19"
+  ],
+  "lapatinib": [
+    "HLA-DRB1",
+    "HLA-DQA1"
+  ],
+  "latanoprost": [
+    "PTGFR"
+  ],
+  "lesinurad": [
+    "CYP2C9"
+  ],
+  "leucovorin": [
+    "MTHFR"
+  ],
+  "levofloxacin": [
+    "G6PD"
+  ],
+  "levomethadone": [
+    "OPRM1",
+    "COMT"
+  ],
+  "levomilnacipran": [
+    "HTR2A",
+    "SLC6A4"
+  ],
+  "lidocaine": [
+    "G6PD"
+  ],
+  "lofexidine": [
+    "CYP2D6"
+  ],
+  "lornoxicam": [
+    "CYP2C9"
+  ],
+  "lovastatin": [
+    "SLCO1B1",
+    "CYP3A4",
+    "CYP3A5",
+    "HMGCR"
+  ],
+  "lumiracoxib": [
+    "CYP2C9"
+  ],
+  "mafenide": [
+    "G6PD"
+  ],
+  "meclizine": [
+    "CYP2D6"
+  ],
+  "mefloquine": [
+    "G6PD"
+  ],
+  "meloxicam": [
+    "CYP2C9"
+  ],
+  "mepacrine": [
+    "G6PD"
+  ],
+  "mercaptopurine": [
+    "NUDT15",
+    "TPMT"
+  ],
+  "mesalazine": [
+    "G6PD"
+  ],
+  "metamizole": [
+    "CYP2C9"
+  ],
+  "metformin": [
+    "C11orf65",
+    "SLC47A2"
+  ],
+  "methadone": [
+    "CYP2D6",
+    "COMT",
+    "CYP2B6",
+    "OPRM1",
+    "ABCB1"
+  ],
+  "methazolamide": [
+    "HLA-B",
+    "HLA-C"
+  ],
+  "methimazole": [
+    "HLA-B"
+  ],
+  "methotrexate": [
+    "ABCB1",
+    "MTHFR",
+    "SLCO1B1",
+    "ATIC",
+    "MTRR"
+  ],
+  "methoxyflurane": [
+    "CACNA1S",
+    "RYR1"
+  ],
+  "methylene blue": [
+    "G6PD"
+  ],
+  "methylphenidate": [
+    "CYP2D6"
+  ],
+  "metoclopramide": [
+    "CYP2D6",
+    "CYB5R1",
+    "CYB5R2",
+    "CYB5R3",
+    "CYB5R4"
+  ],
+  "metoprolol": [
+    "CYP2D6",
+    "ADRA2C",
+    "GRK5",
+    "ADRB1",
+    "GRK4"
+  ],
+  "midazolam": [
+    "CYP3A5"
+  ],
+  "milnacipran": [
+    "HTR2A",
+    "SLC6A4"
+  ],
+  "mirabegron": [
+    "CYP2D6"
+  ],
+  "mirtazapine": [
+    "CYP2D6",
+    "FKBP5"
+  ],
+  "mivacurium": [
+    "BCHE"
+  ],
+  "modafinil": [
+    "CYP2D6"
+  ],
+  "morphine": [
+    "COMT",
+    "OPRM1",
+    "ABCB1"
+  ],
+  "moxifloxacin": [
+    "G6PD"
+  ],
+  "mycophenolic acid": [
+    "HPRT1"
+  ],
+  "nabumetone": [
+    "CYP2C9"
+  ],
+  "nadolol": [
+    "ADRB1",
+    "ADRB2",
+    "ADRA2C",
+    "GRK5",
+    "GRK4"
+  ],
+  "nalidixic acid": [
+    "G6PD"
+  ],
+  "naloxone": [
+    "OPRM1"
+  ],
+  "naltrexone": [
+    "COMT",
+    "OPRM1"
+  ],
+  "naproxen": [
+    "CYP2C9"
+  ],
+  "nebivolol": [
+    "ADRA2C",
+    "CYP2D6",
+    "GRK4",
+    "ADRB1",
+    "GRK5"
+  ],
+  "neomycin": [
+    "MT-RNR1"
+  ],
+  "netilmicin": [
+    "MT-RNR1"
+  ],
+  "nevirapine": [
+    "CYP2A7P1",
+    "CYP2B6",
+    "ABCB1",
+    "HLA-B",
+    "HLA-DRB1",
+    "CCHCR1"
+  ],
+  "nicorandil": [
+    "G6PD"
+  ],
+  "nicotine": [
+    "COMT",
+    "CHRNA3"
+  ],
+  "nilotinib": [
+    "UGT1A1"
+  ],
+  "nitrofural": [
+    "G6PD"
+  ],
+  "nitrofurantoin": [
+    "G6PD"
+  ],
+  "norfloxacin": [
+    "G6PD"
+  ],
+  "nortriptyline": [
+    "CYP2D6"
+  ],
+  "ofloxacin": [
+    "G6PD"
+  ],
+  "olanzapine": [
+    "CYP2D6",
+    "HTR2C",
+    "MC4R",
+    "ANKK1"
+  ],
+  "oliceridine": [
+    "CYP2D6"
+  ],
+  "omeprazole": [
+    "CYP2C19"
+  ],
+  "ondansetron": [
+    "CYP2D6",
+    "ABCB1"
+  ],
+  "oxaliplatin": [
+    "MTHFR",
+    "GSTM1",
+    "GSTP1"
+  ],
+  "oxazepam": [
+    "UGT2B15"
+  ],
+  "oxcarbazepine": [
+    "HLA-B",
+    "HLA-A"
+  ],
+  "oxycodone": [
+    "COMT",
+    "CYP2D6",
+    "OPRM1",
+    "ABCB1"
+  ],
+  "paliperidone": [
+    "MC4R"
+  ],
+  "palonosetron": [
+    "CYP2D6"
+  ],
+  "pantoprazole": [
+    "CYP2C19"
+  ],
+  "paromomycin": [
+    "MT-RNR1"
+  ],
+  "paroxetine": [
+    "CYP2D6",
+    "CYP2C19",
+    "HTR2A",
+    "SLC6A4",
+    "GRIK4",
+    "FKBP5",
+    "HTR1A"
+  ],
+  "pazopanib": [
+    "HLA-B",
+    "UGT1A1"
+  ],
+  "peginterferon alfa-2a": [
+    "IFNL3",
+    "IFNL4"
+  ],
+  "peginterferon alfa-2b": [
+    "IFNL3",
+    "IFNL4",
+    "VDR"
+  ],
+  "pegloticase": [
+    "G6PD"
+  ],
+  "perphenazine": [
+    "CYP2D6"
+  ],
+  "phenazopyridine": [
+    "G6PD"
+  ],
+  "phenprocoumon": [
+    "CYP4F2"
+  ],
+  "phenytoin": [
+    "HLA-B",
+    "CYP2C9",
+    "SCN1A"
+  ],
+  "pimozide": [
+    "CYP2D6"
+  ],
+  "pindolol": [
+    "ADRB2",
+    "ADRA2C",
+    "GRK4",
+    "ADRB1",
+    "GRK5"
+  ],
+  "piroxicam": [
+    "CYP2C9"
+  ],
+  "pitavastatin": [
+    "SLCO1B1",
+    "CYP3A4",
+    "CYP3A5",
+    "HMGCR"
+  ],
+  "pitolisant": [
+    "CYP2D6"
+  ],
+  "platinum": [
+    "XRCC1"
+  ],
+  "plazomicin": [
+    "MT-RNR1"
+  ],
+  "pravastatin": [
+    "SLCO1B1",
+    "CYP3A5",
+    "CYP3A4",
+    "CETP",
+    "HMGCR",
+    "KIF6",
+    "LPA"
+  ],
+  "primaquine": [
+    "G6PD"
+  ],
+  "probenecid": [
+    "G6PD"
+  ],
+  "procainamide": [
+    "NAT2"
+  ],
+  "propafenone": [
+    "CYP2D6"
+  ],
+  "propranolol": [
+    "ADRB2",
+    "CYP2D6",
+    "ADRB1",
+    "GRK4",
+    "ADRA2C",
+    "GRK5"
+  ],
+  "propylthiouracil": [
+    "HLA-B"
+  ],
+  "protriptyline": [
+    "CYP2D6"
+  ],
+  "quetiapine": [
+    "MC4R"
+  ],
+  "quinidine": [
+    "CYP2D6"
+  ],
+  "quinine": [
+    "G6PD",
+    "CYP2D6"
+  ],
+  "rabeprazole": [
+    "CYP2C19"
+  ],
+  "radiotherapy": [
+    "TANC1"
+  ],
+  "raloxifene": [
+    "FDPS"
+  ],
+  "raltegravir": [
+    "UGT1A1"
+  ],
+  "rasburicase": [
+    "G6PD"
+  ],
+  "remifentanil": [
+    "COMT",
+    "OPRM1"
+  ],
+  "ribavirin": [
+    "IFNL3",
+    "VDR"
+  ],
+  "ribostamycin": [
+    "MT-RNR1"
+  ],
+  "risedronate": [
+    "FDPS"
+  ],
+  "risperidone": [
+    "CYP2D6",
+    "DRD2",
+    "HTR2C",
+    "MC4R",
+    "ANKK1"
+  ],
+  "rituximab": [
+    "FCGR3A"
+  ],
+  "rosiglitazone": [
+    "CYP2C8"
+  ],
+  "rosuvastatin": [
+    "SLCO1B1",
+    "ABCG2",
+    "CYP3A4",
+    "CYP3A5",
+    "HMGCR",
+    "COQ2",
+    "LPA"
+  ],
+  "salbutamol": [
+    "ADRB2",
+    "COL22A1",
+    "CRHR2"
+  ],
+  "salmeterol": [
+    "ADRB2"
+  ],
+  "sertraline": [
+    "HTR2A",
+    "CYP2C19",
+    "CYP2B6",
+    "CYP2D6",
+    "GRIK4",
+    "SLC6A4"
+  ],
+  "sevoflurane": [
+    "CACNA1S",
+    "RYR1"
+  ],
+  "sildenafil": [
+    "GNB3"
+  ],
+  "simvastatin": [
+    "SLCO1B1",
+    "ABCB1",
+    "CYP3A4",
+    "CYP3A5",
+    "CETP",
+    "HMGCR",
+    "LPA"
+  ],
+  "siponimod": [
+    "CYP2C9"
+  ],
+  "sirolimus": [
+    "CYP3A5"
+  ],
+  "sodium nitrite": [
+    "G6PD"
+  ],
+  "sotalol": [
+    "GRK4",
+    "ADRB1",
+    "ADRB2",
+    "ADRA2C",
+    "GRK5"
+  ],
+  "spironolactone": [
+    "ADD1"
+  ],
+  "streptomycin": [
+    "MT-RNR1"
+  ],
+  "succinylcholine": [
+    "RYR1",
+    "CACNA1S",
+    "BCHE"
+  ],
+  "sufentanil": [
+    "COMT",
+    "OPRM1"
+  ],
+  "sulfacetamide": [
+    "G6PD"
+  ],
+  "sulfadiazine": [
+    "G6PD"
+  ],
+  "sulfadimidine": [
+    "G6PD"
+  ],
+  "sulfamethoxazole / trimethoprim": [
+    "NAT2",
+    "G6PD"
+  ],
+  "sulfanilamide": [
+    "G6PD"
+  ],
+  "sulfasalazine": [
+    "NAT2",
+    "G6PD"
+  ],
+  "sulfisoxazole": [
+    "G6PD"
+  ],
+  "sulfonamides": [
+    "TCF7L2"
+  ],
+  "sunitinib": [
+    "ABCB1"
+  ],
+  "tacrolimus": [
+    "CYP3A5",
+    "CYP3A4"
+  ],
+  "tafenoquine": [
+    "G6PD"
+  ],
+  "tamoxifen": [
+    "CYP2D6"
+  ],
+  "tamsulosin": [
+    "CYP2D6"
+  ],
+  "tegafur": [
+    "DPYD"
+  ],
+  "tenofovir": [
+    "ABCC4"
+  ],
+  "tenoxicam": [
+    "CYP2C9"
+  ],
+  "terbinafine": [
+    "CYP2D6"
+  ],
+  "tetrabenazine": [
+    "CYP2D6"
+  ],
+  "thioguanine": [
+    "NUDT15",
+    "TPMT"
+  ],
+  "thioridazine": [
+    "CYP2D6"
+  ],
+  "timolol": [
+    "CYP2D6"
+  ],
+  "tiotropium": [
+    "CYP2D6"
+  ],
+  "tobramycin": [
+    "MT-RNR1"
+  ],
+  "tolazamide": [
+    "G6PD"
+  ],
+  "tolbutamide": [
+    "G6PD"
+  ],
+  "tolterodine": [
+    "CYP2D6"
+  ],
+  "toluidine blue": [
+    "G6PD"
+  ],
+  "tramadol": [
+    "CYP2D6",
+    "COMT",
+    "OPRM1",
+    "ABCB1"
+  ],
+  "trametinib": [
+    "G6PD"
+  ],
+  "triamcinolone": [
+    "CRHR1"
+  ],
+  "trimipramine": [
+    "CYP2C19",
+    "CYP2D6"
+  ],
+  "tropisetron": [
+    "CYP2D6"
+  ],
+  "valbenazine": [
+    "CYP2D6"
+  ],
+  "valproic acid": [
+    "POLG",
+    "ABL2",
+    "ASL",
+    "ASS1",
+    "CPS1",
+    "NAGS",
+    "OTC"
+  ],
+  "velaglucerase alfa": [
+    "GBA"
+  ],
+  "venlafaxine": [
+    "CYP2D6",
+    "CYP2C19",
+    "HTR2A",
+    "SLC6A4",
+    "GRIK4",
+    "FKBP5"
+  ],
+  "vilazodone": [
+    "HTR2A",
+    "SLC6A4"
+  ],
+  "vitamin c": [
+    "G6PD"
+  ],
+  "vitamin k": [
+    "G6PD"
+  ],
+  "voriconazole": [
+    "CYP2C19"
+  ],
+  "vortioxetine": [
+    "CYP2D6",
+    "HTR2A",
+    "CYP2C19",
+    "SLC6A4"
+  ],
+  "warfarin": [
+    "CYP4F2",
+    "VKORC1",
+    "CYP2C9",
+    "CALU",
+    "GGCX",
+    "PROS1",
+    "PROC"
+  ],
+  "ziprasidone": [
+    "MC4R"
+  ],
+  "zuclopenthixol": [
+    "CYP2D6"
+  ]
+}
